@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://YOUR_GITHUB_USER.github.io/ai-search-study/sitemap.xml
