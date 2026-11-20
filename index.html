@@ -1,0 +1,7 @@
+# Study C: GitHub Pages デプロイ & Search Console / Bing 計測手順書
+
+1. GitHub上で新規公開リポジトリ（例: `ai-search-study`）を作成する。
+2. `github_pages_docs/` の中身をリポジトリの `docs/` フォルダへ配置し、Settings → Pages → Source を `main` ブランチ `/docs` に設定する。
+3. 発行されたURL（`https://<username>.github.io/ai-search-study/`）に合わせ、`robots.txt`、`sitemap.xml`、各HTMLの `canonical` を置換する。
+4. Google Search Console および Bing Webmaster Tools にサイトを登録し（HTMLメタタグまたはファイル認証）、`sitemap.xml` を送信する。
+5. インデックス登録確認後、6〜8週間の縦断観測（Search Console「生成AIパフォーマンスレポート」、Bing「AI Performance」、および手動質問観測）を開始する。
